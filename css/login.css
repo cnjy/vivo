@@ -1,0 +1,328 @@
+html{
+	font-family: "arial", "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+	background:#f7f7f7;
+}
+label,h4,ul,li{
+	margin: 0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+/*背景*/
+.login{
+	width: 100%;
+	background:#CAE3FF;
+	position:relative;
+	text-align:center;
+	z-index:1;
+}
+/*背景图片*/
+.login-banner{
+	height:710px;
+}
+.login-banner img{
+	cursor:pointer;
+}
+/*登录框*/
+.wrapper{
+	width: 1200px;
+	margin:0 auto;
+	position:relative;
+	top: -715px;
+	z-index:2;
+}
+.wrapper .logo{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.wrapper .logo a{
+	display:block;
+	width: 97px;
+	height: 97px;
+	margin-left:35%;
+	background:url(../images/logo.jpg) no-repeat;
+}
+.layout{
+	position:absolute;
+	top:130px;
+	right:0;
+	width: 420px;
+	min-height:480px;
+	background:#fff;
+}
+.layout-top h4{
+	color:#4d4d4d;
+	font-size:23px;
+	font-weight:normal;
+	padding:30px 0;
+}
+.layout-main{
+	position:relative;
+	top:0px;
+	left:0;
+	width: 360px;
+	/*height: 50px;*/
+	display:inline-block;
+}
+.layout-main label{
+	width:100%;
+	border:1px solid #e1e1e1;
+	display:inline-block;
+	margin-bottom:15px;
+	line-height: 50px;
+	box-sizing: border-box;
+	font-size:0;
+}
+.layout-main input{
+	width: 100%;
+	height:50px;
+	border:none;
+	outline:none;
+	padding-left:16px;
+	box-sizing: border-box;
+	color:#666;
+	font-size:16px;
+	float:left;
+}
+.reminer{
+	display:none;
+	margin-top:-10px;
+	font-size:12px;
+	line-height:20px;
+	color:#f41a19;
+	text-align: left;
+}
+.auto-login{
+	line-height:1;
+	font-size:0;
+	padding-top:15px;
+	width: 360px;
+}
+.login-left{
+	cursor:pointer;
+	display:inline-block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.check{
+	display:inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right:10px;
+	margin-top:-1px;
+	vertical-align: -7px;
+}
+.checked{
+	background:url(../images/checked.png);
+}
+.no{
+	background:url(../images/uncheck.png);
+}
+.login-left .checked-text{
+	display:inline-block;
+	color:#666;
+	font-size:12px;
+	vertical-align: middle;
+	border:0;
+}
+.login-right{
+	float:right;
+}
+.login-right a{
+	display:block;
+	font-size:12px;
+	color:#666;
+}
+.login-right a:hover{
+	color:#2299f7;
+}
+/*登录按钮*/
+.submit-btn{
+	margin-top:30px;
+	height:50px;
+}
+.submit-btn .btn{
+	width: 100%;
+	color:#fff;
+	background:#2899f7;
+	font-size:19px;
+	cursor:pointer;
+	text-align:center;
+	line-height:50px;
+	display:block;
+}
+.submit-btn .btn:hover{
+	background:#40a9ff;
+}
+/*注册按钮*/
+.link-btn{
+	width:358px;
+	padding:0;
+	text-align:center;
+	position:relative;
+	top:15px;
+}
+.link-btn a{
+	display:inline-block;
+	width: 100%;
+	border:1px solid #ccc;
+	color:#666;
+	font-size:19px;
+	line-height:50px;
+}
+.link-btn a:hover{
+	color:#2899f7;
+	border:1px solid #2899f7;
+}
+/*其他登录方式*/
+.else{
+	margin-top:30px;
+}
+.else .text{
+	font-size:12px;
+	text-align: center
+	line-height:1;
+	margin-bottom:15px;
+	color:#999;
+	cursor:default;
+}
+.else .pic{
+	margin-left:11px;
+	text-align: center;
+	font-size:0;
+	line-height: normal;
+	padding-bottom:30px;
+}
+.else .pic a{
+	display:inline-block;
+	margin-right:11px;
+	width: 26px;
+	height: 26px;
+}
+.else .pic a img{
+	display:block;
+	width: 100%;
+}
+.else .pic a .hover{
+	display:none;
+}
+/*尾部*/
+.footer{
+	position:absolute;
+	z-index:999;
+	width: 100%;
+	height: 80px;
+	padding:40px 0;
+	text-align: center;
+	color:#9d9d9d;
+}
+.footer .online{
+	text-align:center;
+}
+.footer .online ul li{
+	display:inline-block;
+	margin-right:15px;
+}
+.footer .online ul li a{
+	display:inline-block;
+	padding-left:25px;
+	color:#666;
+	font-size:12px;
+}
+.footer .online ul li:first-child a img{
+	width: 16px;
+	vertical-align: -2px;
+}
+.footer .online ul li:first-child a:hover{
+	color:#048edc;
+}
+.footer .online ul li a .tel{
+	width: 12px;
+	vertical-align: -2px;
+	padding-right:4px;
+}
+.copy{
+	width: 100%;
+	font-size: 12px;
+	padding:10px 0;
+	box-sizing: border-box;
+}
+/*响应式*/
+@media(max-width:768px){
+	html{
+		overflow-y: :hidden;
+	}
+	.login{
+		background:#fff;
+		height:500px;
+	}
+	.login-banner img{
+		display:none;
+	}
+	.wrapper{
+		width:100%;
+	}
+	.logo{
+		display:none;
+	}
+	.layout{
+		position:relative;
+		top:0;
+		width: 100%;
+	}
+	.layout-top{
+		width:100%;
+		height:30px;
+		padding:20px 0;
+		margin-top:5px;
+		background:url(../images/vivo-logo.jpg) no-repeat center center;
+		background-size:auto 39%;
+	}
+	.layout-top h4{
+		display:none;
+	}
+	.layout-main{
+		padding-top:39px;
+		width: 85%;
+	}
+	.layout-main input{
+		height:42px;
+		overflow-y:hidden;
+		font-size:14px;
+	}
+	.auto-login{
+		width: 100%;
+	}
+	.submit-btn .btn{
+		line-height:43px;
+		font-size:16px;
+	}
+	.link-btn{
+		width: 56%;
+		position:relative;
+		top:15px;
+		margin:0;
+	}
+	.link-btn a{
+		width:178%;
+		margin-left:0px;
+		line-height:43px;
+		font-size:14px;
+	}
+	.footer{
+		background:#fff;
+		height:34px;
+	}
+	.online{
+		display:none;
+	}
+	.copy{
+		font-size:8px;
+	}
+}

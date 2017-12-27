@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>账号登录</title>
+	<link rel="stylesheet" href="./js/html5shiv.min.js">
+	<link rel="stylesheet" href="./css/grid-media.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+	<main>
+		<div class="login">
+			<!-- 背景图片 -->
+			<div class="login-banner">
+				<img src="./images/login.jpg" alt="">
+			</div>
+			<!-- 登录框 -->
+			<div class="wrapper">
+				<div class="logo">
+					<a href="./index.html"></a>
+				</div>
+				<div class="layout">
+					<div class="layout-top"><h4>账号登录</h4></div>
+					<div class="layout-main">
+						<div class="main-box">
+							<label for=""><input class="user" type="text" name="username" placeholder="手机号/邮箱/用户名"></label>
+							<br>
+							<label for=""><input class="pwd" type="text" name="pwd" placeholder="密码"></label>
+							<div class="reminer"></div>
+							<div class="auto-login">
+								<div class="login-left">
+									<div class="check no"></div>
+									<div class="checked-text">两周内自动登录</div>
+								</div>
+								<div class="login-right"><a href="">忘记密码？</a></div>
+							</div>
+							<!-- 登录按钮 -->
+							<div class="submit-btn">
+								<input type="submit" class="btn" value="登录">
+							</div>
+							<div class="link-btn">
+								<a href="./register.html">注册vivo账号</a>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="link-btn">
+						<a href="./html/register.html">注册vivo账号</a>
+					</div> -->
+					<div class="else">
+						<div class="text">其他方式登录</div>
+						<div class="pic">
+							<a ondragstart="return false;" href="">
+								<img class="normal" src="./images/qq.png" alt="">
+								<img class="hover" src="./images/qq_active.png" alt="">
+							</a>
+							<a ondragstart="return false;" href="">
+								<img class="normal" src="./images/weixin.png" alt="">
+								<img class="hover" src="./images/weixin_active.png" alt="">
+							</a>
+							<a ondragstart="return false;" href="">
+								<img class="normal" src="./images/zhifubao.png" alt="">
+								<img class="hover" src="./images/zhifubao_active.png" alt="">
+							</a>
+							<a ondragstart="return false;" href="">
+								<img class="normal" src="./images/sina.png" alt="">
+								<img class="hover" src="./images/sina_active.png" alt="">
+							</a>
+							<a ondragstart="return false;" href="">
+								<img class="normal" src="./images/renren.png" alt="">
+								<img class="hover" src="./images/renren_active.png" alt="">
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- 尾部 -->
+	<footer>
+		<div class="footer">
+			<div class="online">
+				<ul>
+					<li><a href="">
+						<img class="online-service" src="./images/online-service.png" alt="">
+						<img class="online-service-active" src="./images/online-service-active.png" alt="" style="display:none">
+						在线客服
+					</a></li>
+					<li><a href="">
+						<img class="tel" src="./images/tel.png" alt="">
+						400-678-9688(24小时全国服务热线)
+					</a></li>
+				</ul>
+			</div>
+			<div class="copy">COPYRIGHT&nbsp;&copy;&nbsp;1996-2017&nbsp;&nbsp;ALL
+			RIGHTS RESERVED.粤ICP备05100288号</div>
+		</div>
+	</footer>
+</body>
+	<!--[if gt IE 8]> <!-->
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<!--<![endif]-->
+
+	<!--[if lte IE 8]>
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+	<script src="./js/login.js"></script>
+</html>

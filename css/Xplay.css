@@ -1,0 +1,564 @@
+/*通用样式*/
+body{
+	font-family: "方正悠黑简体_纤","Microsoft YaHei",Arial;
+	background-color:#f7f7f5;
+}
+*{
+	margin:0;
+	padding:0;
+}
+/*头部*/
+html{
+	overflow-x: hidden;
+}
+ol{
+	list-style: none;
+}
+
+
+
+.head-wrap .wrapper a.logo{
+	width: 90px;
+	height: 30px;
+	top:7px;
+}
+.head-wrap .wrapper a img{
+	width: 100%;
+	height: 100%;
+}
+/*主体*/
+.xolay-banner{
+	width: 100%;
+	height: 604px;
+	position:relative;
+}
+.xolay-banner .banner{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	background:url(../images/20170705173237452898_original.jpg) no-repeat;
+	background-size:auto 100%;
+	background-position-x:50%;
+}
+.xolay-banner .banner img{
+	width: 0;
+	height:0;
+	position:relative;
+	background:transparent;
+}
+.textBoxOut{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top:0;
+	z-index:1;
+	background:transparent;
+}
+.textBoxOut .textBox{
+	width:auto;
+	height: 200px;
+	position:absolute;
+	top:50%;
+	left:15%;
+	margin-top:-78px;
+	z-index:2;
+	min-width:270px;
+}
+.banner-svg-box{
+	font-size:30px;
+}
+.banner .banner-svg-box img{
+		width: 235px;
+		height: 125px;
+	}
+.textBoxOut .textBox a{
+	width: 70px;
+	height:auto;
+	margin-top:40px;
+	float:left;
+	margin-left:20px;
+}
+.textBoxOut .textBox a:nth-child(2){
+	width: 80px;
+	margin-left:calc(50% - 135px);
+}
+.buttonBuy{
+	width:-webkit-fit-content;
+	margin-left:auto;
+	margin-right:auto;
+}
+.buttonBuy:hover .line{
+	width: 100%;
+}
+.buttonBuy .text{
+	width: 100%;
+	height: 18px;
+	position:relative;
+	font-size:14px;
+	line-height:18px;
+	color:#008cdc;
+	text-align: center;
+	background-color:transparent;
+}
+.buttonBuy .line{
+	margin:0 auto;
+	width: 10px;
+	height: 5px;
+	border-bottom:1px solid #008cdc;
+	transition: width .3s ease;
+}
+.outContent{
+	max-width:1200px;
+	overflow:hidden;
+	height:auto;
+	margin:40px auto 0;
+	position:relative;
+	background:transparent;
+}
+.outContent .leftBox{
+	z-index:100;
+	top:0;
+	width: 12.5%;
+	height: 210px;
+	position:absolute;
+	background:#fff;
+	min-width:90px;
+}
+.outContent .leftBox>img{
+	display:block;
+	width: 50px;
+	height: 50px;
+	position:relative;
+	margin:80px auto;
+	background:transparent;
+	display:none;
+}
+.outContent .carouselBox{
+	z-index:99;
+	max-width:900px;
+	height:210px;
+	background:#fff;
+	overflow: hidden;
+	margin-left:12.5%;
+}
+.outContent .carouselBox .imgItem{
+	width: 120px;
+	height:210px;
+	position:relative;
+	margin-left:50px;
+	float:left;
+	background:transparent;
+	cursor:pointer;
+}
+.outContent .carouselBox .imgItem>img{
+	display:block;
+	width: 105px;
+	height: 105px;
+	position:relative;
+	background:transparent;
+	margin-top:40px;
+}
+.outContent .carouselBox .imgItem>div{
+	width: 100%;
+	height: 50px;
+	position:relative;
+	background:transparent;
+	font-size:14px;
+	line-height:50px;
+	color:#1a1a1a;
+	text-align: center;
+}
+.outContent .rightBox{
+	right:0;
+}
+.product-single{
+	width: 100%;
+	height: 600px;
+	margin-top:40px;
+}
+.product-single .single-box{
+	width: 100%;
+	height: 100%;
+}
+ .product-single .single-box .box{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	background:url(../images/phoneDetail1.jpg) no-repeat;
+	background-size:auto 100%;
+	background-color:#000;
+	background-position-x:50%;
+} 
+.product-single .single-box .box img{
+	width: 100%;
+	height: 100%;
+}
+.product-single .single-box .box .single-text{
+	position:absolute;
+	width: 100%;
+	height: auto;
+	left:0;
+	top:60px;
+}
+.product-single .single-box .box .single-text>:first-child{
+	width: 100%;
+	height: 24px;
+	font-size:20px;
+	line-height:25px;
+	color:#fff;
+	text-align:center;
+}
+.product-single .single-box .box .single-text>:first-child+div{	
+	width: 100%;
+	height: auto;
+	color:#fff;
+	text-align:center;
+	margin-top:5px;
+	font-size:35px;
+	line-height:45px;	
+}
+.product-single .single-box .box .single-text>:first-child+div+div{	
+	width: 100%;
+	height: auto;
+	color:#fff;
+	text-align:center;
+	display:block;
+	margin-top:5px;
+	font-size:28px;
+	line-height:35px;	
+}
+.product-single .single-box .box .single-text>:nth-child(4){
+	width: 76px;
+	height:25px;
+	margin-left:-82px;
+	position:absolute;
+	left:50%;
+	top:135px;
+	background:transparent;
+}
+.product-single .single-box .box .single-text>:nth-child(5){
+	width: 61px;
+	height:25px;
+	margin-left:24px;
+	position:absolute;
+	left:50%;
+	top:135px;
+	background:transparent;
+}
+.product-double{
+	display:block;
+	width: 100%;
+	height:auto;
+	margin-top:40px;
+	position:relative;
+	background:transparent;
+}
+.product-double .double-left{
+	width: 49.5%;
+	height:880px;
+	max-width:580px;
+	margin-top:0;
+	display:block;
+	float:left;
+}
+.product-double .double-right{
+	width: 49.5%;
+	height:880px;
+	max-width:580px;
+	margin-top:0;
+	display:block;
+	float:right;
+}
+.doubleItem{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	background-repeat: no-repeat;
+	background-color:#fff;
+	background-size:auto 100%;
+	background-position-x:50%;
+}
+.left-box{
+	background-image:url(../images/phoneDetail2-1.jpg);
+}
+.right-box{
+	background-image:url(../images/phoneDetail2-2.jpg);
+}
+.doubleItem .text-box{
+	width: 100%;
+	height:auto;
+	position:absolute;
+	top:60px;
+	left:0;
+}
+.doubleItem .text-box>:first-child{
+	width: 100%;
+	height:auto;
+	font-size:23px;
+	line-height:28px;
+	color:#000;
+	text-align: center;
+}
+.doubleItem .text-box>:first-child+div{
+	width: 100%;
+	height:auto;
+	margin-top:10px;
+	font-size:34px;
+	line-height:45px;
+	color:#000;
+	text-align: center;
+}
+.product-double .doubleItem .text-box>:first-child+div+a{
+	display:inline-block;
+	width: 100px;
+	height:25px;
+	margin-left:-50px;
+	position:absolute;
+	left:50%;
+	top:110px;
+	background:transparent;
+}
+.right-box .text-box>:first-child{
+	color:#fff;
+}
+.right-box .text-box>:first-child+div{
+	color:#fff;
+}
+.product-double:after,.accessories:after{
+	clear:both;
+	content:"";
+	display:block;
+	height:0;
+	line-height:0;
+	overflow: hidden;
+}
+.moreAccessories{
+	width: 100%;
+	height: 70px;
+	margin-top:100px;
+	position:relative;
+	font-size:0;
+	text-align: center;
+	background:transparent;
+}
+.moreAccessories img{
+	width: auto;
+	height:100%;
+}
+.moreAccessories>:last-child{
+	width: 60px;
+	height: 25px;
+	margin-left:-30px;
+	position:absolute;
+	left:50%;
+	top:110px;
+}
+.accessories{
+	width: 100%;
+	height:auto;
+	margin-top:124px;
+	position:relative;
+}
+.accessories-box{
+	width: 49.5%;
+	height: 600px;
+	float:left;
+	max-width:580px;
+}
+.accessories-box .accessories-item{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+	background-position-x:50%;
+}
+.accessories-box .item-left{
+	background-image:url(../images/accessories1_1.jpg);
+}
+.accessories-box .accessories-item>:first-child{
+	width: 100%;
+	height: 24px;
+	margin-top:60px;
+	position:absolute;
+	left:0;
+	top:0;
+	text-align: center;
+	font-size: 23px;
+	line-height:24px;
+	color:#000;
+}
+.accessories-box .accessories-item>:first-child+div{
+	width: 100%;
+	height: 35px;
+	margin-top:98px;
+	position:absolute;
+	left:0;
+	top:0;
+	text-align: center;
+	font-size: 35px;
+	line-height:35px;
+	color:#000;
+}
+.accessories-box .accessories-item>:first-child+div+a{
+	width: 100px;
+	height: 25px;
+	margin-left:-50px;
+	position:absolute;
+	left:50%;
+	top:163px;
+}
+.accessories-box .item-right{
+	background-image:url(../images/accessories1_2.jpg);
+}
+.accessories-box:last-child{
+	float:right;
+}
+.accessories2{
+	margin-top:40px;
+}
+.accessories-box .item1-left{
+	background-image:url(../images/accessories2_1.jpg);
+}
+.accessories-box .item1-right{
+	background-image:url(../images/accessories2_2.jpg);
+}
+/*尾部*/
+.foot-path{
+	font-family:'Avenir Next ST',"Microsoft YaHei","PingFang SC";
+	position:relative;
+	width: 100%;
+	height: 70px;
+	padding-top:30px;
+	background:transparent;
+}
+.foot-path .path-box{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	max-width:1200px;
+	margin:auto;
+}
+.foot-path .path-box .path-link{
+	position:relative;
+	width: 100%;
+	height: auto;
+	padding-top:30px;
+	border-top:1px solid #dedede;
+}
+.foot-path .path-box .path-link ol li{
+	position:relative;
+	display:inline-block;
+	font-size:12px;
+	float:left;
+	padding-left:25px;
+}
+.foot-path .path-box .path-link ol li:first-child{
+	padding-left:0;
+}
+.foot-path .path-box .path-link ol li a{
+	display:inline-block;
+	width: 55px;
+	height: 20px;
+}
+.foot-path .path-box .path-link ol li a img{
+	width: 100%;
+	height: 100%;
+}
+.foot-path .path-box .path-link ol li span{
+	line-height:18px;
+	color:gray;
+}
+.foot-path .path-box .path-link ol li:last-child:before{
+	content:"";
+	position:absolute;
+	left:8px;
+	top:3px;
+	font-size:12px;
+	color:#333;
+	font-family:'myfont';
+	font-style:normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height:1;
+}
+ @media(min-width: 1201px){ 
+	.textBoxOut{
+		max-width: 1200px;
+		height: 100%;
+		position:absolute;
+		top:0;
+		background-color:transparent;
+	}
+	.outContent{
+		width: 1200px;
+		height:auto;
+		margin-left:-600px;
+		margin-top:40px;
+		position:relative;
+		left:50%;
+		top:0;
+		background:transparent;
+	}
+}
+.head-wrap .wrapper .wrapper-nav li:first-child{
+	opacity: .6;
+}
+
+@media(max-width: 567px){
+	.xolay-banner .banner{
+		background:url(../images/tu.png) no-repeat;
+		background-size:auto 100%;
+		background-position-x:50%;
+	}
+	.textBoxOut .textBox{
+		top:20%;
+		left:24%;
+		margin-top:0;
+	}
+	.outContent .leftBox>img{
+		display:block;
+	}
+	.outContent .rightBox>img{
+		display:block;
+	}
+	.outContent,.product-single,.product-double{
+		margin-top:10px;
+	}
+	.product-double .double-left{
+		width: 100%;
+	}
+	.product-double .double-right{
+		width: 100%;
+		margin-top:10px;
+	}
+	.moreAccessories{
+		margin-top:50px;
+	}
+	.accessories{
+		margin-top:100px;
+	}
+	.accessories-box{
+		width: 100%;
+		margin-top:10px;
+	}
+	.accessories2{
+		margin-top:0px;
+	}
+	.foot-path{
+		width:auto;
+		padding:30px 16px 0;
+	}
+}
+@media(max-width: 400px){
+	.banner .textBoxOut .textBox{
+		left:18%;
+	}
+}
+@media(max-width: 350px){
+	.banner .textBoxOut .textBox{
+		left:12%;
+	}
+}
